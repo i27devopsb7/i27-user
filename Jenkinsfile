@@ -1,4 +1,4 @@
 @Library("com.i27academy.slb") _
-dockerPipeline(
+k8sPipeline(
     appName: 'user'
 )
