@@ -14,6 +14,8 @@ spec:
       labels:
         app: i27-user-app
     spec:
+      imagePullSecrets:
+        - name: jfrog-secret
       containers:
       - name: i27-user-container
         image: DIT # this image will be replaced by the actual image through shared library method
